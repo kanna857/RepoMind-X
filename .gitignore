@@ -1,0 +1,47 @@
+# === Frontend ===
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# === Backend ===
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/.pytest_cache/
+backend/demo_repo/.pytest_cache/
+backend/demo_repo/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+
+# === Python envs ===
+.venv/
+venv/
+env/
+.env
+.env.local
+*.egg-info/
+dist/
+build/
+
+# === Secrets ===
+*.key
+*.pem
+secrets.json
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE ===
+.vscode/
+.idea/
+*.suo
+*.user
+
+# === Logs ===
+*.log
+logs/

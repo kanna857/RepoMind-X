@@ -1,0 +1,15 @@
+[project]
+name = "checkout-service"
+version = "1.4.0"
+description = "Acme Core Checkout and Pricing Service"
+requires-python = ">=3.9"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
